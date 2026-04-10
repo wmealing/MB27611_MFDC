@@ -1,0 +1,178 @@
+(footprint "C_Axial_L5.1mm_D3.1mm_P17.50mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=5.1*3.1mm^2, http://www.vishay.com/docs/45231/arseries.pdf")
+	(tags "C Axial series Axial Horizontal pin pitch 15mm  length 5.1mm diameter 3.1mm")
+	(property "Reference" "REF**"
+		(at 7.5 -2.67 0)
+		(layer "F.SilkS")
+		(uuid "32a3217a-d7c4-4864-912a-36b9cb885298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Axial_L5.1mm_D3.1mm_P17.50mm_Horizontal"
+		(at 7.5 2.67 0)
+		(layer "F.Fab")
+		(uuid "ed3c31f2-0784-450c-a3c7-9bb0b6fcaec9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "551c336d-ccfb-4f55-8e11-6f1d33e138cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb51111f-3eed-4cae-872b-2d7c3fe58665")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "capacitor/THT/other"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "23a64841-6099-4dff-869f-5d8a0052b451")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.335 -2.62)
+		(end 18.835 -2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13d25c8e-afd8-413b-b168-504cbb91ab60")
+	)
+	(fp_line
+		(start -1.335 1.835)
+		(end -1.335 -2.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b85c8c8d-c908-408b-a9f7-84123bea4516")
+	)
+	(fp_line
+		(start 18.835 -2.62)
+		(end 18.835 1.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e880b94-d6f8-4daf-932d-cd5498cb9b5a")
+	)
+	(fp_line
+		(start 18.835 1.835)
+		(end -1.335 1.835)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d44ecafa-02c7-4eba-b88f-84d64ea0552b")
+	)
+	(fp_rect
+		(start -1.5 -2.75)
+		(end 19 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3627d10a-3c4c-469b-bcd3-c53d9016eb0a")
+	)
+	(fp_rect
+		(start -1.25 -2.5)
+		(end 18.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c77d8172-9214-48b5-b8fe-e5b3cbf63b30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(layer "F.Fab")
+		(uuid "5d116083-4ef6-468b-8170-0d44ce22a23b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(layer "F.Fab")
+		(uuid "d0b807dd-fb38-49b5-9d2d-1d36dbe9ca90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf7b3950-298f-4dca-bd81-f8c6d6d9b6e8")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "154e5df7-60f2-444b-8e22-2aa65ad3bb16")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L5.1mm_D3.1mm_P15.00mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.165 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
